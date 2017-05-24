@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body, h1, .nav ul, .footer p{
+  margin: 0;
+  padding-left: 0;
+}
+
+h1 {
+  padding: 5px 0;
+}
+
+h1, .nav ul, h2, p, .col1 h3 {
+  padding-left: 10px;
+}
+
+.nav li {
+  margin-right: 4px;
+  font-size: 1.2em;
+  padding-top: 5px;
+}
+
+.title {
+  background: grey;
+}
+
+.nav {
+  background: salmon;
+}
+
+.nav li {
+  list-style: none;
+  float: left;
+}
+
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  height: auto;
+}
+
+.col1 {
+  background: green;
+  float: left;
+  width: 70%;
+}
+
+.col2-wrapper {
+  width: 30%;
+  float: right;
+}
+
+.col2 {
+  position: absolute;
+  background: purple;
+  height: 100%;
+}
+
+.footer {
+  background: lightgreen;
+  padding: 5px 10px;
+}
